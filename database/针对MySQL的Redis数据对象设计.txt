@@ -42,7 +42,7 @@ Redis中存储的数据是实时的。针对“会员”的信息，会员的基
                  password  123456
                session_id  abd1f3b4-c4f4-11e5-8f9e-0021ccb4ab5d
               
-              hmset Member:gST8epDEBF8ep4xdcJcGo2 ID gST8epDEBF8ep4xdcJcGo2 cell_phone 13612077384 nick_name jaly password  123456 session_id abd1f3b4-c4f4-11e5-8f9e-0021ccb4ab5d
+              hmset “Member:gST8epDEBF8ep4xdcJcGo2” “ID” “gST8epDEBF8ep4xdcJcGo2” “cell_phone” “13612077384” “nick_name” “jaly” “password” “123456” “session_id” “abd1f3b4-c4f4-11e5-8f9e-0021ccb4ab5d”
               
               注册后的用户放在这个对象里,
               用来匹配手机号码和用户的ID。

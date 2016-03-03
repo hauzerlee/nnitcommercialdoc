@@ -1,3 +1,5 @@
+cd G:\NNIT\nnitcommercialcustomer\commercial_app_manage
+
 创建project
 django-admin startproject commercial_app_manage
 
@@ -17,6 +19,9 @@ python manage.py migrate
 安装pymysql
 进入PyMySQL-master文件夹
 python setup.py install
-_init_.py 中加入：
+在project的_init_.py 中加入：
 import pymysql
 pymysql.install_as_MySQLdb()
+
+启动
+python manage.py runserver 0.0.0.0:8002

@@ -15,13 +15,13 @@ hmset "Shop:bsuE9msdeALT4ZhfyXRTRo" "ID" "bsuE9msdeALT4ZhfyXRTRo" "shop_name" "�
 hmset "Shop:kQNbn6HQproeUGkZSKBAkf" "ID" "kQNbn6HQproeUGkZSKBAkf" "shop_name" "周小福" "floor" "3F" "location" "34号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282930" "contact" "周小福" "contact_tel" "1365935690" "introduction" "周小福珠宝金行由周至元先生于1929年广州市创立，其后迁往澳门，于1939年正式在香港成立。1956年，周大福由郑裕彤先生接手经营，始创999.9纯金首饰，成为今日首饰行业黄金成色的香港标准。" "category" "1" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
 zadd Shops:GRADE 4 bsuE9msdeALT4ZhfyXRTRo
 zadd Shops:GRADE 5 kQNbn6HQproeUGkZSKBAkf
-zadd Shops:JOINED_DATE 2016-02-28 bsuE9msdeALT4ZhfyXRTRo
-zadd Shops:JOINED_DATE 2015-02-28 kQNbn6HQproeUGkZSKBAkf
-hmset Product:FJbRqHjqJXvvzpmK8x2YXm ID:FJbRqHjqJXvvzpmK8x2YXm PRODUCT_NAME:纯金手环 picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:34934.30 SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
-hmset Product:2UNZNm6j9Xy56XfrYtTXnT ID:2UNZNm6j9Xy56XfrYtTXnT PRODUCT_NAME:银戒指   picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:323.00   SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
-hmset Product:3xPpd2QyxRX5Err9mprKka ID:3xPpd2QyxRX5Err9mprKka PRODUCT_NAME:金手镯   picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:2345.00  SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
-hmset Product:fu4zKLkNBTuyNfWNcLTLAE ID:fu4zKLkNBTuyNfWNcLTLAE PRODUCT_NAME:钻戒     picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:10000.00 SHOP_ID:kQNbn6HQproeUGkZSKBAkf
-hmset Product:XbtrLk4WW8qVEvSXoZ93KS ID:XbtrLk4WW8qVEvSXoZ93KS PRODUCT_NAME:金戒指   picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:12000.00 SHOP_ID:kQNbn6HQproeUGkZSKBAkf
+zadd Shops:JOINED_DATE "2016-02-28" bsuE9msdeALT4ZhfyXRTRo
+zadd Shops:JOINED_DATE "2015-02-28" kQNbn6HQproeUGkZSKBAkf
+hmset Product:FJbRqHjqJXvvzpmK8x2YXm ID:FJbRqHjqJXvvzpmK8x2YXm PRODUCT_NAME:纯金手环 picture:"http://www.abc.com/a.jpeg" UNIT_PRICE:34934.30 SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
+hmset Product:2UNZNm6j9Xy56XfrYtTXnT ID:2UNZNm6j9Xy56XfrYtTXnT PRODUCT_NAME:银戒指   picture:"http://www.abc.com/a.jpeg" UNIT_PRICE:323.00   SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
+hmset Product:3xPpd2QyxRX5Err9mprKka ID:3xPpd2QyxRX5Err9mprKka PRODUCT_NAME:金手镯   picture:"http://www.abc.com/a.jpeg" UNIT_PRICE:2345.00  SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
+hmset Product:fu4zKLkNBTuyNfWNcLTLAE ID:fu4zKLkNBTuyNfWNcLTLAE PRODUCT_NAME:钻戒     picture:"http://www.abc.com/a.jpeg" UNIT_PRICE:10000.00 SHOP_ID:kQNbn6HQproeUGkZSKBAkf
+hmset Product:XbtrLk4WW8qVEvSXoZ93KS ID:XbtrLk4WW8qVEvSXoZ93KS PRODUCT_NAME:金戒指   picture:"http://www.abc.com/a.jpeg" UNIT_PRICE:12000.00 SHOP_ID:kQNbn6HQproeUGkZSKBAkf
 sadd Product:bsuE9msdeALT4ZhfyXRTRo FJbRqHjqJXvvzpmK8x2YXm 2UNZNm6j9Xy56XfrYtTXnT 3xPpd2QyxRX5Err9mprKka
 sadd Product:kQNbn6HQproeUGkZSKBAkf fu4zKLkNBTuyNfWNcLTLAE XbtrLk4WW8qVEvSXoZ93KS
 hmset Groupon:gfzLF59w9Dcmuut8RRbQhP ID:gfzLF59w9Dcmuut8RRbQhP SHOP_ID:bsuE9msdeALT4ZhfyXRTRo TITLE:测试的团购券01 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"

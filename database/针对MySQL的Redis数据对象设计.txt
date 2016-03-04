@@ -223,9 +223,9 @@ Redis中存储的数据是实时的。针对“会员”的信息，会员的基
                    Key: Shops:JOINED_DATE
                  Value: 
                         Key: shop_id
-                      Value: join_date
+                      Value: days (根据日期转换为天数)
                 |-- Shops:JOINED_DATE ----zset-|
-                |   shop_id : join_date        |
+                |   shop_id : join_days        |
                 |------------------------------|      
                
 2.2 商铺折扣

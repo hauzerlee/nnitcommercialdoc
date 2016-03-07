@@ -33,3 +33,6 @@ hmset "Groupon:RidoBpz6FxwcwxZMvUjt7c" ID "RidoBpz6FxwcwxZMvUjt7c" SHOP_ID "kQNb
 hmset "Groupon:Bed3N8g8yRGTogxqRUfweQ" ID "Bed3N8g8yRGTogxqRUfweQ" SHOP_ID "kQNbn6HQproeUGkZSKBAkf" TITLE "测试的团购券07" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
 sadd "Groupon:bsuE9msdeALT4ZhfyXRTRo" "gfzLF59w9Dcmuut8RRbQhP" "UfNMUdhcxnaHpNZx5vdokK" "ZvqVehJrxarVG8XjfVdxdV" "wPzwxYykvnoypuvRJWzHZn"
 sadd "Groupon:kQNbn6HQproeUGkZSKBAkf" "WMkaM6jRJnFAmeYqDry6Hf" "RidoBpz6FxwcwxZMvUjt7c" "Bed3N8g8yRGTogxqRUfweQ"
+sadd "Groupon:gST8epDEBF8ep4xdcJcGo2" "gfzLF59w9Dcmuut8RRbQhP" "UfNMUdhcxnaHpNZx5vdokK" "Bed3N8g8yRGTogxqRUfweQ" "WMkaM6jRJnFAmeYqDry6Hf" 
+sadd "Groupon:xtqgP6Mrz7gyQNQimtfp7m" "ZvqVehJrxarVG8XjfVdxdV" "wPzwxYykvnoypuvRJWzHZn" "RidoBpz6FxwcwxZMvUjt7c" 
+sadd "Groupon:76CQRN8uiBJNwygUCwQ565" "WMkaM6jRJnFAmeYqDry6Hf" "RidoBpz6FxwcwxZMvUjt7c" "UfNMUdhcxnaHpNZx5vdokK"

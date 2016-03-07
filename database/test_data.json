@@ -21,7 +21,7 @@ hmset "Member:cellphone" "13612077386" "76CQRN8uiBJNwygUCwQ565"
 # |   cell phone number           |
 # |-------------------------------|
 
-sadd Member:used_cellphone "13612077384" "13612077385" "13612077386"
+add "Member:used_cellphone" "13612077384" "13612077385" "13612077386"
 
 # 每个用户的积分
 # |-- Integral:MemberId --- String-|
@@ -37,9 +37,9 @@ set Integral:76CQRN8uiBJNwygUCwQ565 23
 # |   shopId                 |
 # |--------------------------|
 
-sadd Favors:gST8epDEBF8ep4xdcJcGo2 kQNbn6HQproeUGkZSKBAkf bsuE9msdeALT4ZhfyXRTRo
-sadd Favors:xtqgP6Mrz7gyQNQimtfp7m bsuE9msdeALT4ZhfyXRTRo
-sadd Favors:76CQRN8uiBJNwygUCwQ565 kQNbn6HQproeUGkZSKBAkf
+sadd "Favors:gST8epDEBF8ep4xdcJcGo2" "kQNbn6HQproeUGkZSKBAkf" "bsuE9msdeALT4ZhfyXRTRo"
+sadd "Favors:xtqgP6Mrz7gyQNQimtfp7m" "bsuE9msdeALT4ZhfyXRTRo"
+sadd "Favors:76CQRN8uiBJNwygUCwQ565" "kQNbn6HQproeUGkZSKBAkf"
 
 # 已经注册的商铺
 # |-- Shop: shopId ------hash-|
@@ -54,16 +54,16 @@ hmset "Shop:kQNbn6HQproeUGkZSKBAkf" "ID" "kQNbn6HQproeUGkZSKBAkf" "shop_name" "�
 # |   shop_id : score        |
 # |--------------------------|
 
-zadd Shops:GRADE 4 bsuE9msdeALT4ZhfyXRTRo
-zadd Shops:GRADE 5 kQNbn6HQproeUGkZSKBAkf
+zadd "Shops:GRADE" 4 "bsuE9msdeALT4ZhfyXRTRo"
+zadd "Shops:GRADE" 5 "kQNbn6HQproeUGkZSKBAkf"
 
 # 商铺加入系统的时间
 # |-- Shops:JOINED_DATE ----zset-|
 # |   shop_id : join_date        |
 # |------------------------------| 
 
-zadd Shops:JOINED_DATE 2016-02-28 bsuE9msdeALT4ZhfyXRTRo
-zadd Shops:JOINED_DATE 2015-02-28 kQNbn6HQproeUGkZSKBAkf
+zadd "Shops:JOINED_DATE" 30 "bsuE9msdeALT4ZhfyXRTRo"
+zadd "Shops:JOINED_DATE" 390 "kQNbn6HQproeUGkZSKBAkf"
 
 
 # 商品详情
@@ -71,11 +71,11 @@ zadd Shops:JOINED_DATE 2015-02-28 kQNbn6HQproeUGkZSKBAkf
 # |   column : column_VALUE      |
 # |------------------------------|
 
-hmset Product:FJbRqHjqJXvvzpmK8x2YXm ID:FJbRqHjqJXvvzpmK8x2YXm PRODUCT_NAME:纯金手环 picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:34934.30 SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
-hmset Product:2UNZNm6j9Xy56XfrYtTXnT ID:2UNZNm6j9Xy56XfrYtTXnT PRODUCT_NAME:银戒指   picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:323.00   SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
-hmset Product:3xPpd2QyxRX5Err9mprKka ID:3xPpd2QyxRX5Err9mprKka PRODUCT_NAME:金手镯   picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:2345.00  SHOP_ID:bsuE9msdeALT4ZhfyXRTRo
-hmset Product:fu4zKLkNBTuyNfWNcLTLAE ID:fu4zKLkNBTuyNfWNcLTLAE PRODUCT_NAME:钻戒     picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:10000.00 SHOP_ID:kQNbn6HQproeUGkZSKBAkf
-hmset Product:XbtrLk4WW8qVEvSXoZ93KS ID:XbtrLk4WW8qVEvSXoZ93KS PRODUCT_NAME:金戒指   picture:'http://www.abc.com/a.jpeg' UNIT_PRICE:12000.00 SHOP_ID:kQNbn6HQproeUGkZSKBAkf
+hmset "Product:FJbRqHjqJXvvzpmK8x2YXm" ID "FJbRqHjqJXvvzpmK8x2YXm" PRODUCT_NAME "纯金手环" PICTURE "http://www.abc.com/a.jpeg" UNIT_PRICE 34934.20 SHOP_ID "bsuE9msdeALT4ZhfyXRTRo"
+hmset "Product:2UNZNm6j9Xy56XfrYtTXnT" ID "2UNZNm6j9Xy56XfrYtTXnT" PRODUCT_NAME "银戒指"   PICTURE "http://www.abc.com/a.jpeg" UNIT_PRICE 323.34   SHOP_ID "bsuE9msdeALT4ZhfyXRTRo"
+hmset "Product:3xPpd2QyxRX5Err9mprKka" ID "3xPpd2QyxRX5Err9mprKka" PRODUCT_NAME "金手镯"   PICTURE "http://www.abc.com/a.jpeg" UNIT_PRICE 2345.64  SHOP_ID "bsuE9msdeALT4ZhfyXRTRo"
+hmset "Product:fu4zKLkNBTuyNfWNcLTLAE" ID "fu4zKLkNBTuyNfWNcLTLAE" PRODUCT_NAME "钻戒"     PICTURE "http://www.abc.com/a.jpeg" UNIT_PRICE 10000.00 SHOP_ID "kQNbn6HQproeUGkZSKBAkf"
+hmset "Product:XbtrLk4WW8qVEvSXoZ93KS" ID "XbtrLk4WW8qVEvSXoZ93KS" PRODUCT_NAME "金戒指"   PICTURE "http://www.abc.com/a.jpeg" UNIT_PRICE 12000.00 SHOP_ID "kQNbn6HQproeUGkZSKBAkf"
 
 
 # 商家的商品列表
@@ -83,8 +83,8 @@ hmset Product:XbtrLk4WW8qVEvSXoZ93KS ID:XbtrLk4WW8qVEvSXoZ93KS PRODUCT_NAME:金�
 # |   productId             |
 # |-------------------------|
 
-sadd Product:bsuE9msdeALT4ZhfyXRTRo FJbRqHjqJXvvzpmK8x2YXm 2UNZNm6j9Xy56XfrYtTXnT 3xPpd2QyxRX5Err9mprKka
-sadd Product:kQNbn6HQproeUGkZSKBAkf fu4zKLkNBTuyNfWNcLTLAE XbtrLk4WW8qVEvSXoZ93KS
+sadd  "Product:bsuE9msdeALT4ZhfyXRTRo" "FJbRqHjqJXvvzpmK8x2YXm" "2UNZNm6j9Xy56XfrYtTXnT" "3xPpd2QyxRX5Err9mprKka"
+sadd  "Product:kQNbn6HQproeUGkZSKBAkf" "fu4zKLkNBTuyNfWNcLTLAE" "XbtrLk4WW8qVEvSXoZ93KS"
 
 
 # 团购的信息
@@ -92,18 +92,26 @@ sadd Product:kQNbn6HQproeUGkZSKBAkf fu4zKLkNBTuyNfWNcLTLAE XbtrLk4WW8qVEvSXoZ93K
 # |   columName : columValue |
 # |--------------------------|
 
-hmset Groupon:gfzLF59w9Dcmuut8RRbQhP ID:gfzLF59w9Dcmuut8RRbQhP SHOP_ID:bsuE9msdeALT4ZhfyXRTRo TITLE:测试的团购券01 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
-hmset Groupon:UfNMUdhcxnaHpNZx5vdokK ID:UfNMUdhcxnaHpNZx5vdokK SHOP_ID:bsuE9msdeALT4ZhfyXRTRo TITLE:测试的团购券02 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
-hmset Groupon:ZvqVehJrxarVG8XjfVdxdV ID:ZvqVehJrxarVG8XjfVdxdV SHOP_ID:bsuE9msdeALT4ZhfyXRTRo TITLE:测试的团购券03 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
-hmset Groupon:wPzwxYykvnoypuvRJWzHZn ID:wPzwxYykvnoypuvRJWzHZn SHOP_ID:bsuE9msdeALT4ZhfyXRTRo TITLE:测试的团购券04 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
-hmset Groupon:WMkaM6jRJnFAmeYqDry6Hf ID:WMkaM6jRJnFAmeYqDry6Hf SHOP_ID:kQNbn6HQproeUGkZSKBAkf TITLE:测试的团购券05 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
-hmset Groupon:RidoBpz6FxwcwxZMvUjt7c ID:RidoBpz6FxwcwxZMvUjt7c SHOP_ID:kQNbn6HQproeUGkZSKBAkf TITLE:测试的团购券06 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
-hmset Groupon:Bed3N8g8yRGTogxqRUfweQ ID:Bed3N8g8yRGTogxqRUfweQ SHOP_ID:kQNbn6HQproeUGkZSKBAkf TITLE:测试的团购券07 PICTURE:"http://www.abc.com/a.jpeg" ORIGINAL_PRICE:100.00 CURRENT_PRICE:50.00 START_TIME:"2016-03-15 00:00:00" END_TIME:"2016-04-01 00:00:00" DETAILS:五折大优惠 CREATE_TIME:"2016-03-02 21:22:00"
+hmset "Groupon:gfzLF59w9Dcmuut8RRbQhP" ID "gfzLF59w9Dcmuut8RRbQhP" SHOP_ID "bsuE9msdeALT4ZhfyXRTRo" TITLE "测试的团购券01" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
+hmset "Groupon:UfNMUdhcxnaHpNZx5vdokK" ID "UfNMUdhcxnaHpNZx5vdokK" SHOP_ID "bsuE9msdeALT4ZhfyXRTRo" TITLE "测试的团购券02" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
+hmset "Groupon:ZvqVehJrxarVG8XjfVdxdV" ID "ZvqVehJrxarVG8XjfVdxdV" SHOP_ID "bsuE9msdeALT4ZhfyXRTRo" TITLE "测试的团购券03" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
+hmset "Groupon:wPzwxYykvnoypuvRJWzHZn" ID "wPzwxYykvnoypuvRJWzHZn" SHOP_ID "bsuE9msdeALT4ZhfyXRTRo" TITLE "测试的团购券04" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
+hmset "Groupon:WMkaM6jRJnFAmeYqDry6Hf" ID "WMkaM6jRJnFAmeYqDry6Hf" SHOP_ID "kQNbn6HQproeUGkZSKBAkf" TITLE "测试的团购券05" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
+hmset "Groupon:RidoBpz6FxwcwxZMvUjt7c" ID "RidoBpz6FxwcwxZMvUjt7c" SHOP_ID "kQNbn6HQproeUGkZSKBAkf" TITLE "测试的团购券06" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
+hmset "Groupon:Bed3N8g8yRGTogxqRUfweQ" ID "Bed3N8g8yRGTogxqRUfweQ" SHOP_ID "kQNbn6HQproeUGkZSKBAkf" TITLE "测试的团购券07" PICTURE "http://www.abc.com/a.jpeg" ORIGINAL_PRICE 100.00 CURRENT_PRICE 50.00 START_TIME "2016-03-15 00:00:00" END_TIME "2016-04-01 00:00:00" DETAILS "五折大优惠" CREATE_TIME "2016-03-02 21:22:00"
 
 
 # 团购信息与商铺的关系
 # |--Groupon:shopId ---Set-|
 # |  GrouponId             |
 # |------------------------|
-sadd Groupon:bsuE9msdeALT4ZhfyXRTRo gfzLF59w9Dcmuut8RRbQhP UfNMUdhcxnaHpNZx5vdokK ZvqVehJrxarVG8XjfVdxdV wPzwxYykvnoypuvRJWzHZn
-sadd Groupon:kQNbn6HQproeUGkZSKBAkf WMkaM6jRJnFAmeYqDry6Hf RidoBpz6FxwcwxZMvUjt7c Bed3N8g8yRGTogxqRUfweQ
+sadd "Groupon:bsuE9msdeALT4ZhfyXRTRo" "gfzLF59w9Dcmuut8RRbQhP" "UfNMUdhcxnaHpNZx5vdokK" "ZvqVehJrxarVG8XjfVdxdV" "wPzwxYykvnoypuvRJWzHZn"
+sadd "Groupon:kQNbn6HQproeUGkZSKBAkf" "WMkaM6jRJnFAmeYqDry6Hf" "RidoBpz6FxwcwxZMvUjt7c" "Bed3N8g8yRGTogxqRUfweQ"
+
+＃ 用户购买的团购
+＃ |--Groupon:memberId ---Set-|
+＃ | GrouponId                |
+＃ |--------------------------|
+sadd "Groupon:gST8epDEBF8ep4xdcJcGo2" "gfzLF59w9Dcmuut8RRbQhP" "UfNMUdhcxnaHpNZx5vdokK" "Bed3N8g8yRGTogxqRUfweQ" "WMkaM6jRJnFAmeYqDry6Hf" 
+sadd "Groupon:xtqgP6Mrz7gyQNQimtfp7m" "ZvqVehJrxarVG8XjfVdxdV" "wPzwxYykvnoypuvRJWzHZn" "RidoBpz6FxwcwxZMvUjt7c" 
+sadd "Groupon:76CQRN8uiBJNwygUCwQ565" "WMkaM6jRJnFAmeYqDry6Hf" "RidoBpz6FxwcwxZMvUjt7c" "UfNMUdhcxnaHpNZx5vdokK"

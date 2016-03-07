@@ -4,7 +4,7 @@ hmset "Member:76CQRN8uiBJNwygUCwQ565" "ID" "76CQRN8uiBJNwygUCwQ565" "cell_phone"
 hmset "Member:cellphone" "13612077384" "gST8epDEBF8ep4xdcJcGo2" 
 hmset "Member:cellphone" "13612077385" "xtqgP6Mrz7gyQNQimtfp7m" 
 hmset "Member:cellphone" "13612077386" "76CQRN8uiBJNwygUCwQ565" 
-sadd ”Member:used_cellphone“ "13612077384" "13612077385" "13612077386"
+sadd "Member:used_cellphone" "13612077384" "13612077385" "13612077386"
 set Integral:gST8epDEBF8ep4xdcJcGo2 1024
 set Integral:xtqgP6Mrz7gyQNQimtfp7m 2048
 set Integral:76CQRN8uiBJNwygUCwQ565 23

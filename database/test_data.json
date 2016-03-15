@@ -46,8 +46,16 @@ sadd "Favors:76CQRN8uiBJNwygUCwQ565" "kQNbn6HQproeUGkZSKBAkf"
 # |   column : value          |
 # |---------------------------|
 
-hmset "Shop:bsuE9msdeALT4ZhfyXRTRo" "ID" "bsuE9msdeALT4ZhfyXRTRo" "shop_name" "周大福" "floor" "1F" "location" "33号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282928" "contact" "周大福" "contact_tel" "1365935698" "introduction" "周大福珠宝金行由周至元先生于1929年广州市创立，其后迁往澳门，于1939年正式在香港成立。1956年，周大福由郑裕彤先生接手经营，始创999.9纯金首饰，成为今日首饰行业黄金成色的香港标准。" "category" "1" "create_time" "2016-02-28 12:34:43" "opening_time" "2015-12-01-01" "member" "gST8epDEBF8ep4xdcJcGo2"
-hmset "Shop:kQNbn6HQproeUGkZSKBAkf" "ID" "kQNbn6HQproeUGkZSKBAkf" "shop_name" "周小福" "floor" "3F" "location" "34号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282930" "contact" "周小福" "contact_tel" "1365935690" "introduction" "周小福珠宝金行由周至元先生于1929年广州市创立，其后迁往澳门，于1939年正式在香港成立。1956年，周大福由郑裕彤先生接手经营，始创999.9纯金首饰，成为今日首饰行业黄金成色的香港标准。" "category" "1" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
+hmset "Shop:bsuE9msdeALT4ZhfyXRTRo" "ID" "bsuE9msdeALT4ZhfyXRTRo" "shop_name" "周大福" "floor" "1F" "location" "33号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282928" "contact" "周大福" "contact_tel" "1365935698" "introduction" "周大福珠宝金行由周至元先生于1929年广州市创立，其后迁往澳门，于1939年正式在香港成立。1956年，周大福由郑裕彤先生接手经营，始创999.9纯金首饰，成为今日首饰行业黄金成色的香港标准。" "category" "ChZkeFtzGBNczif9bqCVB8" "create_time" "2016-02-28 12:34:43" "opening_time" "2015-12-01-01" "member" "gST8epDEBF8ep4xdcJcGo2"
+hmset "Shop:kQNbn6HQproeUGkZSKBAkf" "ID" "kQNbn6HQproeUGkZSKBAkf" "shop_name" "周小福" "floor" "3F" "location" "34号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282930" "contact" "周小福" "contact_tel" "1365935690" "introduction" "周小福珠宝金行由周至元先生于1929年广州市创立，其后迁往澳门，于1939年正式在香港成立。1956年，周大福由郑裕彤先生接手经营，始创999.9纯金首饰，成为今日首饰行业黄金成色的香港标准。" "category" "ChZkeFtzGBNczif9bqCVB8" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
+hmset "Shop:RoNWYGHgVfB4XrhktoGAB5" "ID" "RoNWYGHgVfB4XrhktoGAB5" "shop_name" "学而思" "floor" "3F" "location" "3号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87238299" "contact" "张三" "contact_tel" "1365935634" "introduction" "博文文具专卖店" "category" "pgQVpHXzYoW3NR922AfVdZ" "create_time" "2016-02-28 12:34:43" "opening_time" "2015-12-01-01" "member" "gST8epDEBF8ep4xdcJcGo2"
+hmset "Shop:SgufPEcPvHXzneSzqCxjYh" "ID" "SgufPEcPvHXzneSzqCxjYh" "shop_name" "步步高" "floor" "3F" "location" "34号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282930" "contact" "李四" "contact_tel" "1365935690" "introduction" "儿童学习机中的战斗机" "category" "pgQVpHXzYoW3NR922AfVdZ" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
+hmset "Shop:6LXdczufudphpnKHXpcmSR" "ID" "6LXdczufudphpnKHXpcmSR" "shop_name" "Levis" "floor" "1F" "location" "33号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282928" "contact" "Leivs Strauss" "contact_tel" "1365935698" "introduction" "Levis具有典型的美国传统风格和随性的酷劲十足。成立于1873年，由Levi Strauss创立。" "category" "j4NZbKsxhrEws575MNaaTZ" "create_time" "2016-02-28 12:34:43" "opening_time" "2015-12-01-01" "member" "gST8epDEBF8ep4xdcJcGo2"
+hmset "Shop:Qp5C2cxkXGzA3PyQb2iZFB" "ID" "Qp5C2cxkXGzA3PyQb2iZFB" "shop_name" "安娜苏" "floor" "3F" "location" "34号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282930" "contact" "王五" "contact_tel" "1365935690" "introduction" "安娜苏的设计大胆，而且略带一种毫不在意世俗的眼光，她选择以代表强烈欲望的紫色来包装其化妆品。" "category" "rcMVgosXu2rdYVNrAszHhS" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
+hmset "Shop:Ewikbuy2XkvYCYvip24dtK" "ID" "Ewikbuy2XkvYCYvip24dtK" "shop_name" "九毛九" "floor" "1F" "location" "33号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "58100008" "contact" "毛为之" "contact_tel" "1365935698" "introduction" "山西人的代名词。以做最好的面馆为使命。" "category" "3amMvF4UoLTQE3juc7TLQa" "create_time" "2016-02-28 12:34:43" "opening_time" "2015-12-01-01" "member" "gST8epDEBF8ep4xdcJcGo2"
+hmset "Shop:B4kKLfBdfSBQkzP7sYG3uc" "ID" "B4kKLfBdfSBQkzP7sYG3uc" "shop_name" "APPLE" "floor" "1F" "location" "30号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "581000139" "contact" "Steve Job" "contact_tel" "1365935690" "introduction" "全球最炫的科技公司，核心业务为电子科技产品" "category" "A5S3E4ZUbPuMNbAyEA5wMD" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
+hmset "Shop:3za8ten8LybcaVs24URQQL" "ID" "3za8ten8LybcaVs24URQQL" "shop_name" "阪织屋" "floor" "1F" "location" "33号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282928" "contact" "赵六" "contact_tel" "1365935698" "introduction" "一架集设计、生产、销售于一体的公司" "category" "BPACvq39KAVsmGzykZHV2U" "create_time" "2016-02-28 12:34:43" "opening_time" "2015-12-01-01" "member" "gST8epDEBF8ep4xdcJcGo2"
+hmset "Shop:NVu2GHZC8J7bjzNka7uLRS" "ID" "NVu2GHZC8J7bjzNka7uLRS" "shop_name" "RE调香室" "floor" "5F" "location" "34号" "logo" "http://www.bac.org/logo.jpeg" "true_scene" "http://www.bac.org/true_scene.jpeg" "telephone" "87282930" "contact" "周小福" "contact_tel" "1365935690" "introduction" "诞生在上海的一架时尚理念公司" "category" "BPACvq39KAVsmGzykZHV2U" "create_time" "2015-02-28 12:34:43" "opening_time" "2014-12-01-01" "member" "xtqgP6Mrz7gyQNQimtfp7m"
 
 # 商铺的评分
 # |-- Shops:GRADE ------zset-|
@@ -55,7 +63,16 @@ hmset "Shop:kQNbn6HQproeUGkZSKBAkf" "ID" "kQNbn6HQproeUGkZSKBAkf" "shop_name" "�
 # |--------------------------|
 
 zadd "Shops:GRADE" 4 "bsuE9msdeALT4ZhfyXRTRo"
-zadd "Shops:GRADE" 5 "kQNbn6HQproeUGkZSKBAkf"
+zadd "Shops:GRADE" 3 "kQNbn6HQproeUGkZSKBAkf"
+zadd "Shops:GRADE" 5 "RoNWYGHgVfB4XrhktoGAB5"
+zadd "Shops:GRADE" 4 "SgufPEcPvHXzneSzqCxjYh"
+zadd "Shops:GRADE" 2 "6LXdczufudphpnKHXpcmSR"
+zadd "Shops:GRADE" 4 "Qp5C2cxkXGzA3PyQb2iZFB"
+zadd "Shops:GRADE" 5 "Ewikbuy2XkvYCYvip24dtK"
+zadd "Shops:GRADE" 2 "B4kKLfBdfSBQkzP7sYG3uc"
+zadd "Shops:GRADE" 1 "3za8ten8LybcaVs24URQQL"
+zadd "Shops:GRADE" 5 "NVu2GHZC8J7bjzNka7uLRS"
+
 
 # 商铺加入系统的时间
 # |-- Shops:JOINED_DATE ----zset-|
@@ -64,7 +81,14 @@ zadd "Shops:GRADE" 5 "kQNbn6HQproeUGkZSKBAkf"
 
 zadd "Shops:JOINED_DATE" 30 "bsuE9msdeALT4ZhfyXRTRo"
 zadd "Shops:JOINED_DATE" 390 "kQNbn6HQproeUGkZSKBAkf"
-
+zadd "Shops:JOINED_DATE" 300 "RoNWYGHgVfB4XrhktoGAB5"
+zadd "Shops:JOINED_DATE" 290 "SgufPEcPvHXzneSzqCxjYh"
+zadd "Shops:JOINED_DATE" 306 "6LXdczufudphpnKHXpcmSR"
+zadd "Shops:JOINED_DATE" 102 "Qp5C2cxkXGzA3PyQb2iZFB"
+zadd "Shops:JOINED_DATE" 402 "Ewikbuy2XkvYCYvip24dtK"
+zadd "Shops:JOINED_DATE" 210 "B4kKLfBdfSBQkzP7sYG3uc"
+zadd "Shops:JOINED_DATE" 94 "3za8ten8LybcaVs24URQQL"
+zadd "Shops:JOINED_DATE" 456 "NVu2GHZC8J7bjzNka7uLRS"
 
 # 商品详情
 # |-- Product:product_id --hash--|
@@ -140,3 +164,16 @@ hmset "Discount:EdCVDdtKBJsXywjPdaUTBB" ID "EdCVDdtKBJsXywjPdaUTBB" TITLE "翡�
 sadd "Discount:gST8epDEBF8ep4xdcJcGo2" "pvqMYQLdMYohuhRaRSiquX" "WaYmLDmrNbtZKwyCZFKZeY" "PLzxDtSC9p7UhFevoRd6PE" "fFYopYfX6qaiAq9XfzXhyf"
 sadd "Discount:xtqgP6Mrz7gyQNQimtfp7m" "hvVkKHoafVWc8YypQDGHP5" "Nb6N88oTrZeK866Ceg4eLE" "F5BThcrb4JPQpzgYuFgRtW"
 sadd "Discount:76CQRN8uiBJNwygUCwQ565" "WUj32FBmhT7dW3FyaCV2D4" "BHYHaLLmSjv9e5CoxKKYkP" "Gn2NKTNuxEQxKT9V4cW8x3" "EdCVDdtKBJsXywjPdaUTBB"
+
+
+# 店铺的分类
+# |-- Category:categoryId --- String-|
+# |   LABEL                          |
+# |----------------------------------|
+set "Category:ChZkeFtzGBNczif9bqCVB8" "配饰"
+set "Category:rcMVgosXu2rdYVNrAszHhS" "化妆品"
+set "Category:j4NZbKsxhrEws575MNaaTZ" "服装"
+set "Category:3amMvF4UoLTQE3juc7TLQa" "美食"
+set "Category:A5S3E4ZUbPuMNbAyEA5wMD" "家电数码"
+set "Category:pgQVpHXzYoW3NR922AfVdZ" "文教娱乐"
+set "Category:BPACvq39KAVsmGzykZHV2U" "家居生活"
